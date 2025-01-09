@@ -60,11 +60,6 @@ int main() {
         size_t quick_counter = 0;
         std::vector<int> quick_arr = quick_sort(arr, quick_counter);
 
-        for (size_t j = 0; j < quick_arr.size(); j++)
-        {
-            std::cout << quick_arr[j] << " ";
-        }
-        std::cout <<std::endl;
         std::cout << "Bubble count: " << bubble_count << std::endl;
         std::cout << "Insertion count: " << insertion_count << std::endl;
         std::cout << "quick count: " << quick_counter << std::endl;
